@@ -34,8 +34,14 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 	
 </head>
 <body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
-
-
+<script type="text/javascript"> 
+function disableRightClick() 
+{ 
+alert("Payden wants to know why you are you trying to right click"); 
+return false; 
+} 
+</script> 
+<body oncontextmenu=" return disableRightClick();">
 <!-- Preloader section -->
 
 <div class="preloader">
